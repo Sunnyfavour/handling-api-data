@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Emmalee sunny",
+      "username": "Daugherty",
+      "email": "nicolas.alfonso@sipes.info",
+      "phone": "+4051062303440",
+      "birthday": "1940-04-10",
+      "gender": "female",
+      "website": "http://stokes.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 2,
+      "name": "Buck",
+      "username": "Jakubowski",
+      "email": "aturner@gmail.com",
+      "phone": "+9573105935949",
+      "birthday": "1947-02-09",
+      "gender": "male",
+      "website": "http://raynor.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 3,
+      "name": "Jaylin",
+      "username": "Hauck",
+      "email": "ernser.woodrow@hotmail.com",
+      "phone": "+9964145415829",
+      "birthday": "1971-09-05",
+      "gender": "male",
+      "website": "http://denesik.org",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 4,
+      "name": "Adaline",
+      "username": "Dickinson",
+      "email": "harber.lia@hilpert.com",
+      "phone": "+6912770141344",
+      "birthday": "2009-08-08",
+      "gender": "female",
+      "website": "http://bergnaum.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 5,
+      "name": "Eli mhi",
+      "username": "Schowalter",
+      "email": "kassulke.jimmie@hotmail.com",
+      "phone": "+5413298322022",
+      "birthday": "2015-04-17",
+      "gender": "male",
+      "website": "http://hoppe.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 6,
+      "name": "Harold de munich",
+      "username": "Ledner",
+      "email": "romaguera.isobel@kozey.com",
+      "phone": "+6906031097907",
+      "birthday": "1955-04-23",
+      "gender": "male",
+      "website": "http://white.info",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 7,
+      "name": "Napoleon",
+      "username": "Medhurst",
+      "email": "nathaniel.stamm@gmail.com",
+      "phone": "+8099527125784",
+      "birthday": "2014-11-08",
+      "gender": "male",
+      "website": "http://romaguera.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 8,
+      "name": "Jodie",
+      "username": "Smith",
+      "email": "strosin.kenya@hotmail.com",
+      "phone": "+8601334931623",
+      "birthday": "2017-03-04",
+      "gender": "female",
+      "website": "http://stiedemann.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 9,
+      "name": "Sebastian",
+      "username": "Schumm",
+      "email": "ebba.rempel@yahoo.com",
+      "phone": "+8852198485270",
+      "birthday": "1936-03-18",
+      "gender": "male",
+      "website": "http://douglas.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 10,
+      "name": "Emmanuella",
+      "username": "Rowe",
+      "email": "hauck.gabrielle@hotmail.com",
+      "phone": "+6319687703356",
+      "birthday": "2001-12-22",
+      "gender": "female",
+      "website": "http://lind.net",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 11,
+      "name": "Kevin",
+      "username": "Huel",
+      "email": "oceane20@hotmail.com",
+      "phone": "+9515358799628",
+      "birthday": "1944-07-12",
+      "gender": "male",
+      "website": "http://bogan.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "id": 12,
+      "name": "Carmella",
+      "username": "Stehr",
+      "email": "dach.ara@corkery.com",
+      "phone": "+2848651681987",
+      "birthday": "2008-12-14",
+      "gender": "female",
+      "website": "http://flatley.com",
+      "image": "http://placeimg.com/640/480/people"
+    },
+    {
+      "name": "sunday favour",
+      "email": "edidiongfavour2@gmail.com",
+      "phone": "+2348132324370",
+      "id": 13
+    },
+    {
+      "name": "Iyanu Mhi",
+      "email": "Favouriyanu@gmail.com",
+      "phone": "+2348132324370",
+      "id": 14
+    },
+    {
+      "name": "Sunday Emmanuel",
+      "email": "sundayemmanuel@gmail.com",
+      "phone": "+2349026622522",
+      "id": 15
+    },
+    {
+      "name": "Wisdom Sunday",
+      "email": "wisdom@gmail.com",
+      "phone": "+2349232324370",
+      "id": 16
+    }
+  ]
+}
