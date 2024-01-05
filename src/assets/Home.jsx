@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { Link,} from "react-router-dom"
+import { Link
+} from "react-router-dom"
 
 function Home() {
     const [data, setData] = useState([])
@@ -9,8 +10,12 @@ function Home() {
     axios.get('http://localhost:3000/users')
     .then(res=> {setData(res.data)})
     .catch(err=> console.log(err))
+
+
+
   },[])
   const handleDelete=(id)=>{
+    
     const comfirm = window.confirm("would you like to delete?")
     if (comfirm){
       axios.delete('http://localhost:3000/users/'+  id)
@@ -27,7 +32,7 @@ function Home() {
   }
   return (
     <div className="d-flex flex-column justify-content-center align-items-center bg-white vh-80 vw-100" >
-      <h1>List of Users</h1>
+      <h1 className="font-bold text-4xl">List of Users</h1>
       <div className="w-75 rounded bg-white border shadow p-4">
         <div className="d-flex justify-content-end">
           <Link to="/create" className="btn btn-success">Add +</Link>
@@ -53,9 +58,9 @@ function Home() {
                       <td>{d.email}</td>
                       <td>{d.phone}</td>
                       <td>
-                        <Link to={`/read/${d.id}`} className="btn btn-sm btn-info me-2">Read</Link>
-                        <Link to={`/update/${d.id}`} className="btn btn-sm btn-primary me-2">Edit</Link>
-                        <button onClick={()=>handleDelete(d.id)} className="btn btn-sm btn-danger">Delete</button>
+                        <Link to={`/read/${d.id}`} className="btn btn-sm btn-info me-2 hover:bg-white hover:text-bold">Read</Link>
+                        <Link to={`/update/${d.id}`} className="btn btn-sm btn-primary me-2 hover:bg-white hover:text-blue-500">Edit</Link>
+                        <button onClick={()=>handleDelete(d.id)} className="btn btn-sm btn-danger hover:bg-white hover:text-red-500">Delete</button>
                       </td>
                     </tr>
                   ))

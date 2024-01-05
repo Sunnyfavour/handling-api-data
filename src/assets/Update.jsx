@@ -14,9 +14,7 @@ function Update() {
     setValues({...values,[e.target.name]:e.target.value})
   }
   const {id} = useParams();
-  const navigate = useNavigate();
-
-  
+  const navigate = useNavigate()
 
   useEffect(()=>{
     axios.get('http://localhost:3000/users/'+ id, )
@@ -33,7 +31,7 @@ function Update() {
     })
     .catch(err=> console.log(err))
   }
-  // const [border,setBorder]= useState("2px solid blue")
+  
   useEffect(()=>{
     if(
       values.name!==""&&
@@ -54,7 +52,7 @@ function Update() {
   return (
     <div className="d-flex justify-content-center align-items-center vw-100 vh-100 bg-light">
       <div className="w-50 border bg-white shadow px-5 pt-3 pb-5 rounded">
-        <h1>Update a User</h1>
+        <h1 className="text-2xl font-bold">Update a User</h1>
         <form onSubmit={handleUpdate}>
           <div className="mb-2">
             <label htmlFor="name">Name:</label>
@@ -70,8 +68,8 @@ function Update() {
           <div className="mb-3">
             <label htmlFor="name">Phone:</label>
             <input type="text" name="phone" className="form-control" placeholder="Enter Phone Number" value={values.phone} onChange={handleChange}/>
-            <button disabled={!touch} className="btn btn-success">Update</button>
-            <Link to="/" className="btn btn-primary ms-3">Back</Link>
+            <button disabled={!touch} className="btn btn-success mt-3">Update</button>
+            <Link to="/" className="btn btn-primary ms-3 mt-3">Back</Link>
           </div>
         </form>
       </div>
